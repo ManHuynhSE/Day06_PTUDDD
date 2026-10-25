@@ -5,7 +5,6 @@ import { BottomTabApp } from './src/ex3/BottomTabApp'; // 1. Import bài tập t
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* 2. Thay thế ứng dụng cũ bằng ứng dụng BottomTabApp */}
       <BottomTabApp /> 
       <StatusBar style="auto" />
     </View>
